@@ -23,4 +23,5 @@ Precise training:
  In order to save operation time and prevent overfitting of small sample training, this system fine-tunes some VGG layers. This neural network uses 3x3 convolution kernal and 3 sets of conventional layers, 3 pooling layers, 2 fully connected layers and a classification layer.
  
  Version: python-3.6.8, tensorflow-gpu-1.8.0, numpy-1.16.6, scikit-learn-0.22.1, opencv-4.0.1
+ 
  Some files are too big to upload, such as shape_predictor_68_face_landmarks.dat and some static file. 

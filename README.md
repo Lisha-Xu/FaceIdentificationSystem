@@ -1,4 +1,6 @@
 # FaceIdentificationSystem
+Display: https://www.bilibili.com/video/BV13K411p7Y8/
+
 This identification system realizes the identity verification function by comparing the photo taken by the live camera with the photo uploaded by the students in advance. 
 Through the training photos, a face recognition model is obtained, which can predict the name of incoming photo. The training module is got by two ways: LBP+PCA+SVM or Convolutional Neural Network.  
 The model used 107 students’ photos (40 from ORL and other are provided by Chinese university and Korean university classmates) for training and ten original photos of each person at least. The prediction model predicts and returns the student ID. The predicted ID is compared with student ID which is searched in database by the input. If they are the same, the verification is passed. The “daka” column in database records as 1, otherwise it is recorded as 0.

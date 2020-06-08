@@ -236,7 +236,7 @@ def fasttrain():
     lenth= len(images_names)
     if request.method == 'POST':
         string1 = "正在加载图片"
-        #GetImage()
+        GetImage()
         string2 = "正在训练数据"
         report,t0 = trainPCA()
         string3 ="训练结束"

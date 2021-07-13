@@ -1,5 +1,4 @@
 # FaceIdentificationSystem
-Display: https://www.bilibili.com/video/BV13K411p7Y8/
 
 This identification system realizes the identity verification function by comparing the photo taken by the live camera with the photo uploaded by the students in advance. 
 Through the training photos, a face recognition model is obtained, which can predict the name of incoming photo. The training module is got by two ways: LBP+PCA+SVM or Convolutional Neural Network.  
